@@ -1,0 +1,12 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
