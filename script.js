@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
             imgs[flippedCardsIds[1]].style.cursor = 'auto';
             
             //atualizar o score, somando + 1
-            score.innerHTML = Number(score.innerHTML) + 1; //FIZ ESTA PARTE DIFERENTE DA ANIA, MAS ACHO QUE ESTÁ MUITO MELHOR!
+            score.innerHTML = Number(score.innerHTML) + 1;
             
             if(Number(score.innerHTML) === 6){
                 alert('You won the game!');
